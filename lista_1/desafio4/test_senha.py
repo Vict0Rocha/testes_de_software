@@ -18,8 +18,8 @@ def test_senha_forte(senha, esperado):
 
 
 def test_senha_passa_no_teste_mas_ainda_e_fraca():
-    # essa senha passa na nossa regra (maiuscula + numero + 8 caracteres),
-    # mas "Senha123" e uma senha bem obvia e facil de adivinhar.
-    # isso mostra que passar no teste nao prova que a funcao esta livre de
-    # defeitos: a nossa regra nao verifica senhas comuns/previsiveis.
+    '''Essa senha passa na  regra (maiuscula + numero + 8 caracteres),
+    mas "Senha123" e uma senha bem obvia e facil de adivinhar.
+    isso mostra que passar no teste nao prova que a funcao esta livre de
+    defeitos: a nossa regra nao verifica senhas comuns/previsiveis.'''
     assert senha_forte("Senha123") is True
