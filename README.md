@@ -68,3 +68,14 @@ jogadas.
 
 Função que recebe o tabuleiro (lista de listas 3x3) e diz se venceu o X, o
 O, se deu empate ou se o jogo está em andamento.
+
+## Desafio de Integração
+
+### Cadastro de tarefas com repositório
+
+Sistema de tarefas com dois componentes reais (sem mock ou stub): um
+repositório que guarda as tarefas em memória e um serviço, que recebe o
+repositório por injeção de dependência e implementa as regras de negócio
+(adicionar, concluir, listar pendentes). O teste de integração exercita os
+dois componentes juntos. Veja detalhes em
+[desafio_integracao/README.md](desafio_integracao/README.md).
