@@ -69,7 +69,7 @@ jogadas.
 Função que recebe o tabuleiro (lista de listas 3x3) e diz se venceu o X, o
 O, se deu empate ou se o jogo está em andamento.
 
-## Desafio de Integração
+## Lista 3 - Desafio de Integração
 
 ### Cadastro de tarefas com repositório
 
